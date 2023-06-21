@@ -29,6 +29,10 @@ In this demo the main idea is to show how some of the terraform functions work, 
 
 In this demo the idea is explain the teraform resources block in the file main.tf for AWS, and then run the ```terraform init```, ```terraform plan```, and ```terraform apply``` commands, show the resources created in AWS and finally run the ```terraform destroy``` command.
 
+**Note** You need to have the AWS CLI install and configured, see this [tutorial](https://www.youtube.com/watch?v=Rp-A84oh4G8) if you need it.
+
 - lab06 - How to create resources in Azure.
 
 In this demo the idea is explain the teraform resources block in the file main.tf for AZURE, and then run the ```terraform init```, ```terraform plan```, and ```terraform apply``` commands, show the resources created in AWS and finally run the ```terraform destroy``` command.
+
+**Note** You need to have the Azure CLI install and configured, see this [tutorial](https://www.youtube.com/watch?v=tD-ixw8szIQ) if you need it. There are several ways to interact with the Azure CLI, for demostration porpuses run the ```az login``` command to authenticate with Azure is fine, but it does not work if you try to implement this solution in a pipeline, there are several ways to solve this, for example [Authenticating using a Service Principal](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret)
